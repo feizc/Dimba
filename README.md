@@ -1,2 +1,1 @@
-# Dimba
-Dimba: Transformer-Mamba Diffusion Models
+## Dimba: Transformer-Mamba Diffusion Models
