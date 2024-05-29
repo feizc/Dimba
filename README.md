@@ -2,7 +2,7 @@
   <img src="asset/logo.jpg"  height=200>
 </p>
 
-## <div align="center">Dimba: Transformer-Mamba Diffusion Models <div> 
+### <div align="center">Dimba: Transformer-Mamba Diffusion Models <div> 
 
 ---
 
