@@ -16,7 +16,12 @@
 
 This repo contains PyTorch model definitions, pre-trained weights and inference/sampling code for our paper Transformer-Mamba Diffusion Models. You can find more visualizations on our project page.
 
-<b> TL; DR: Dimba is a new text-to-image diffusion model that employs a hybrid architecture combining Transformer and Mamba elements, thus capitalizing on the advantages of both architectural paradigms.
+<b> TL; DR: Dimba is a new text-to-image diffusion model that employs a hybrid architecture combining Transformer and Mamba elements, thus capitalizing on the advantages of both architectural paradigms.</b>
+
+---
+![some generated cases.](asset/case.jpg)
+
+---
 
 
 ## 1. Environments
