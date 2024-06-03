@@ -1,7 +1,6 @@
 <p align="center">
   <img src="asset/logo.jpg"  height=200>
 </p>
-
 ### <div align="center"> 🚀 Dimba: Transformer-Mamba Diffusion Models <div> 
 <div align="center">
   <a href="https://github.com/feizc/Dimba/"><img src="https://img.shields.io/static/v1?label=Dimba Code&message=Github&color=blue&logo=github-pages"></a> &ensp;
@@ -13,7 +12,10 @@
 
 ---
 
-This repo contains PyTorch model definitions, pre-trained weights and inference/sampling code for our paper Transformer-Mamba Diffusion Models. You can find more visualizations on our [project page](https://dimba.github.io/).
+This repo contains PyTorch model definitions, pre-trained weights and inference/sampling code for our paper Transformer-Mamba Diffusion Models. You can find more visualizations on our project page.
+
+<b> TL; DR: Dimba is a new text-to-image diffusion model that employs a hybrid architecture combining Transformer and Mamba elements, thus capitalizing on the advantages of both architectural paradigms.
+
 
 ## 1. Environments
 
@@ -28,7 +30,14 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
   - `pip install -e mamba`
 
 
-## 2. Training 
+## 2. Inference
+
+## 3. Training 
+
+
+## 4. Acknowledgments
+
+The codebase is based on the awesome PixArt, Vim, and DiS repos. 
 
 
 
