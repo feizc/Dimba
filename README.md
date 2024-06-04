@@ -42,37 +42,34 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 
 ## 2. Download Models
 
-Models reported in paper can be directly dounloaded as follows. 
+Models reported in paper can be directly dounloaded as follows: 
 | Model                       | #Params | url      | 
 |:----------------------------|:--------|:----------------------------------------------------------------------------------------------------------------|
-| t5                          | 4.3B     |[huggingface](https://huggingface.co/)|
-| vae                          | 80M     |[huggingface](https://huggingface.co/)|
-| Dimba-L-512                  | 0.9B     |[huggingface](https://huggingface.co/)|
-| Dimba-L-1024                  | 0.9B     |[huggingface](https://huggingface.co/)|
-| Dimba-L-2048                  | 0.9B     |[huggingface](https://huggingface.co/)|
-| Dimba-G-512                  | 1.8B     |[huggingface](https://huggingface.co/)|
-| Dimba-G-1024                  | 1.8B     |[huggingface](https://huggingface.co/)|
+| t5                          | 4.3B     |[huggingface](https://huggingface.co/feizhengcong/Dimba/tree/main/t5)|
+| vae                          | 80M     |[huggingface](https://huggingface.co/feizhengcong/Dimba/tree/main/vae)|
+| Dimba-L-512                  | 0.9B     |[huggingface](https://huggingface.co/feizhengcong/Dimba/tree/main)|
+| Dimba-L-1024                  | 0.9B     |- |
+| Dimba-L-2048                  | 0.9B     | - |
+| Dimba-G-512                  | 1.8B     |-|
+| Dimba-G-1024                  | 1.8B     | - |
 
 ## 3. Inference
 
+We include a inference script which samples images from a Dimba model accroding to textual prompts. 
+
 ```bash
-python sample.py \
---model Dimba-L \
---ckpt /path/to/model \
---image-size 512 \
---cfg-scale 1.5
+python scripts/inference.py \
+--image_size 512 \
+--model_version dimba-l \
+--model_path /path/to/model \
+--txt_file asset/examples.txt \
+--save_path /path/to/save/results
 ```
 
 
 ## 4. Training 
 
-```bash
-torchrun --nnodes=4 --nproc_per_node=8 train.py \
---model Dimba-L \
---data-path /path/to/imagenet/train \
---image-size 512 
-```
-
+Coming soon.
 
 ## 5. BibTeX
 
