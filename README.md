@@ -48,7 +48,6 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 
 ## 4. Acknowledgments
 
-The codebase is based on the awesome PixArt, Vim, and DiS repos. 
-
+The codebase is based on the awesome [PixArt](https://github.com/PixArt-alpha/PixArt-alpha), [Vim](https://github.com/hustvl/Vim), and [DiS](https://github.com/feizc/DiS) repos. 
 
 
