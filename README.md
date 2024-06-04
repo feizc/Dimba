@@ -45,12 +45,13 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 Models reported in paper can be directly dounloaded as follows. 
 | Model                       | #Params | url      | 
 |:----------------------------|:--------|:----------------------------------------------------------------------------------------------------------------|
-| t5                          | 4.3B     |[t5](https://huggingface.co/)|
-| vae                          | 80M     |[vae](https://huggingface.co/)|
-| Dimba-L-512                  | 0.9B     |[vae](https://huggingface.co/)|
-| Dimba-L-1024                  | 0.9B     |[vae](https://huggingface.co/)|
-| Dimba-G-512                  | 1.8B     |[vae](https://huggingface.co/)|
-| Dimba-G-1024                  | 1.8B     |[vae](https://huggingface.co/)|
+| t5                          | 4.3B     |[huggingface](https://huggingface.co/)|
+| vae                          | 80M     |[huggingface](https://huggingface.co/)|
+| Dimba-L-512                  | 0.9B     |[huggingface](https://huggingface.co/)|
+| Dimba-L-1024                  | 0.9B     |[huggingface](https://huggingface.co/)|
+| Dimba-L-2048                  | 0.9B     |[huggingface](https://huggingface.co/)|
+| Dimba-G-512                  | 1.8B     |[huggingface](https://huggingface.co/)|
+| Dimba-G-1024                  | 1.8B     |[huggingface](https://huggingface.co/)|
 
 ## 3. Inference
 
