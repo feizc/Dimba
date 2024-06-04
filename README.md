@@ -40,13 +40,24 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
   - `pip install -e causal_conv1d`
   - `pip install -e mamba`
 
+## 2. Download Models
 
-## 2. Inference
+Models reported in paper can be directly dounloaded as follows. 
+| Model                       | #Params | url      | 
+|:----------------------------|:--------|:----------------------------------------------------------------------------------------------------------------|
+| t5                          | 4.3B     |[t5](https://huggingface.co/)|
+| vae                          | 80M     |[vae](https://huggingface.co/)|
+| Dimba-L-512                  | 0.9B     |[vae](https://huggingface.co/)|
+| Dimba-L-1024                  | 0.9B     |[vae](https://huggingface.co/)|
+| Dimba-G-512                  | 1.8B     |[vae](https://huggingface.co/)|
+| Dimba-G-1024                  | 1.8B     |[vae](https://huggingface.co/)|
 
-## 3. Training 
+## 3. Inference
+
+## 4. Training 
 
 
-## 4. Acknowledgments
+## 5. Acknowledgments
 
 The codebase is based on the awesome [PixArt](https://github.com/PixArt-alpha/PixArt-alpha), [Vim](https://github.com/hustvl/Vim), and [DiS](https://github.com/feizc/DiS) repos. 
 
