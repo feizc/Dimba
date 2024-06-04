@@ -15,6 +15,8 @@
 <a href="http://arxiv.org/abs/2406.01159"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Dimba&color=purple&logo=arxiv"></a> &ensp;
 <a href="https://www.tiangong.cn/chat/text_gen_image/004"><img src="https://img.shields.io/static/v1?label=Demo&message=Demo:Dimba&color=orange&logo=demo"></a> &ensp;
 </div>
+
+
 ---
 
 This repo contains PyTorch model definitions, pre-trained weights and inference/sampling code for our paper Transformer-Mamba Diffusion Models. You can find more visualizations on our project page.
