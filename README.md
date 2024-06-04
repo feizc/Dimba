@@ -90,4 +90,5 @@ torchrun --nnodes=4 --nproc_per_node=8 train.py \
 
 The codebase is based on the awesome [PixArt](https://github.com/PixArt-alpha/PixArt-alpha), [Vim](https://github.com/hustvl/Vim), and [DiS](https://github.com/feizc/DiS) repos. 
 
+The paper is polished with [ChatGPT](https://chat.openai.com/) using [`prompt`](asset/paper_writing.txt).
 
