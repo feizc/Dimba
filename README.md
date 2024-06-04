@@ -9,9 +9,12 @@
   <a href="https://dimba-project.github.io/"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=red&logo=github-pages"></a> &ensp;
     <a href="https://huggingface.co/feizhengcong/Dimba"><img src="https://img.shields.io/static/v1?label=models&message=HF&color=yellow"></a> &ensp;
   <a href="https://huggingface.co/feizhengcong/Dimba"><img src="https://img.shields.io/static/v1?label=dataset&message=HF&color=green"></a> &ensp;
-    <a href="http://arxiv.org/abs/2406.01159"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Dimba&color=purple&logo=arxiv"></a> &ensp;
 </div>
 
+<div align="center">
+<a href="http://arxiv.org/abs/2406.01159"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Dimba&color=purple&logo=arxiv"></a> &ensp;
+<a href="https://www.tiangong.cn/chat/text_gen_image/004"><img src="https://img.shields.io/static/v1?label=Demo&message=Demo:Dimba&color=orange&logo=demo"></a> &ensp;
+</div>
 ---
 
 This repo contains PyTorch model definitions, pre-trained weights and inference/sampling code for our paper Transformer-Mamba Diffusion Models. You can find more visualizations on our project page.
