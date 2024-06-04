@@ -55,10 +55,38 @@ Models reported in paper can be directly dounloaded as follows.
 
 ## 3. Inference
 
+```bash
+python sample.py \
+--model Dimba-L \
+--ckpt /path/to/model \
+--image-size 512 \
+--cfg-scale 1.5
+```
+
+
 ## 4. Training 
 
+```bash
+torchrun --nnodes=4 --nproc_per_node=8 train.py \
+--model Dimba-L \
+--data-path /path/to/imagenet/train \
+--image-size 512 
+```
 
-## 5. Acknowledgments
+
+## 5. BibTeX
+
+    @misc{fei2024dimba,
+        title={Dimba: Transformer-Mamba Diffusion Models}, 
+        author={Zhengcong Fei and Mingyuan Fan and Changqian Yu and Debang Li and Youqiang Zhang and Junshi Huang},
+        year={2024},
+        eprint={2406.01159},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+    }
+
+  
+## 6. Acknowledgments
 
 The codebase is based on the awesome [PixArt](https://github.com/PixArt-alpha/PixArt-alpha), [Vim](https://github.com/hustvl/Vim), and [DiS](https://github.com/feizc/DiS) repos. 
 
