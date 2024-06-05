@@ -168,7 +168,7 @@ class Webdataset:
 
 from PIL import Image
 from torch.utils.data import Dataset
-class MJDataset(Dataset): 
+class SimpleDataset(Dataset): 
     def __init__(self, path, transform): 
         with open(path, 'r') as f: 
             self.data_list = json.load(f) 
