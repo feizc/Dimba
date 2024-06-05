@@ -48,6 +48,7 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 ## 2. Download Models
 
 Models reported in paper can be directly dounloaded as follows: 
+
 | Model                       | #Params | url      | 
 |:----------------------------|:--------|:----------------------------------------------------------------------------------------------------------------|
 | t5                          | 4.3B     |[huggingface](https://huggingface.co/feizhengcong/Dimba/tree/main/t5)|
@@ -61,6 +62,7 @@ Models reported in paper can be directly dounloaded as follows:
 ## 3. Inference
 
 We include a inference script which samples images from a Dimba model accroding to textual prompts. 
+It supports DDIM and dpm-solver sampling algorithm. You can run the scripts as: 
 
 ```bash
 python scripts/inference.py \
