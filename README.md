@@ -76,7 +76,16 @@ python scripts/inference.py \
 
 ## 4. Training 
 
-Coming soon.
+We provide a training script for Dimba in scripts/train.py. This script can be used to fine-tuning with different settings. 
+You can run the scripts as: 
+
+```bash
+python -m torch.distributed.launch --nnodes=4 --nproc_per_node=8 \
+    --master_port=1234 scripts/train.py \
+    configs/dimba_xl2_img512.py \
+    --work-dir outputs
+```
+
 
 ## 5. BibTeX
 
