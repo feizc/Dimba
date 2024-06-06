@@ -47,7 +47,7 @@ This repo contains PyTorch model definitions, pre-trained weights and inference/
 
 ## 2. Download Models
 
-Models reported in paper can be directly dounloaded as follows: 
+Models reported in paper can be directly dounloaded as follows （Urgent upload in progress）: 
 
 | Model                       | #Params | url      | 
 |:----------------------------|:--------|:----------------------------------------------------------------------------------------------------------------|
@@ -58,6 +58,14 @@ Models reported in paper can be directly dounloaded as follows:
 | Dimba-L-2048                  | 0.9B     | - |
 | Dimba-G-512                  | 1.8B     |-|
 | Dimba-G-1024                  | 1.8B     | - |
+
+The datasets used to quality tuning for aesthetic performance enhancement can be download as: 
+
+| Dataset                      | Size | url      | 
+|:----------------------------|:--------|:----------------------------------------------------------------------------------------------------------------|
+| Quality tuning                          | 600k     |[huggingface](https://huggingface.co/datasets/feizhengcong/Dimba)| 
+
+
 
 ## 3. Inference
 
