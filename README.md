@@ -8,7 +8,7 @@
   <a href="https://github.com/feizc/Dimba/"><img src="https://img.shields.io/static/v1?label=Dimba Code&message=Github&color=blue&logo=github-pages"></a> &ensp;
   <a href="https://dimba-project.github.io/"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=red&logo=github-pages"></a> &ensp;
     <a href="https://huggingface.co/feizhengcong/Dimba"><img src="https://img.shields.io/static/v1?label=models&message=HF&color=yellow"></a> &ensp;
-  <a href="https://huggingface.co/feizhengcong/Dimba"><img src="https://img.shields.io/static/v1?label=dataset&message=HF&color=green"></a> &ensp;
+  <a href="https://huggingface.co/datasets/feizhengcong/Dimba"><img src="https://img.shields.io/static/v1?label=dataset&message=HF&color=green"></a> &ensp;
 </div>
 
 <div align="center">
